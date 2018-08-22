@@ -1,5 +1,6 @@
 # YYLabel
 YYLabel文本响应点击及YYLabel换行
+
 // 1. 创建属性字符串。      
 NSMutableAttributedString *text = [[NSMutableAttributedString alloc] initWithString:@"可以点击的字符串可以点击的字符串可以点击的字符串可以点击的字符串可以点击的字符串可以点击的字符串"];
     

@@ -44,10 +44,9 @@
     label.backgroundColor = [UIColor colorWithWhite:0.933 alpha:1.000];
     label.displaysAsynchronously = YES;   //比较耗时的渲染操作在后台运行
     label.clearContentsBeforeAsynchronouslyDisplay = NO;  //在进行后台渲染前是否清除掉之前的内容，如果YES就会先清除之前的内容，可能会出现空白
-    YYTextContainer  *titleContarer = [YYTextContainer new];
-    //限制宽度
-    titleContarer.size = CGSizeMake(SCREEN_WIDTH,CGFLOAT_MAX);
-    
+//    YYTextContainer  *titleContarer = [YYTextContainer new];
+//    //限制宽度
+//    titleContarer.size = CGSizeMake(SCREEN_WIDTH,CGFLOAT_MAX);
 //    label.textLayout = [YYTextLayout layoutWithContainer:titleContarer text:text];
 //    CGFloat titleLabelHeight = label.textLayout.textBoundingSize.height;
     // YYLabel要想自动换行，必须设置最大换行的宽度
